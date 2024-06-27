@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Free University Website Template | Smarteyeapps.com</title>
+
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        #studentForm {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ################# Header Starts Here#######################--->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 left-item">
+                        <ul>
+                            <li><i class="fas fa-envelope-square"></i>presidencyuniversity@gnail.com</li>
+                            <li><i class="fas fa-phone-square"></i> 9999999999</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-block right-item">
+                        <ul>
+                            <li><a><i class="fab fa-github"></i></a></li>
+                            <li><a><i class="fab fa-google-plus-g"></i></a></li>
+                            <li> <a><i class="fab fa-pinterest-p"></i></a></li>
+                            <li><a><i class="fab fa-twitter"></i></a></li>
+                            <li> <a><i class="fab fa-facebook-f"></i></a></li>
+							<li><a class="btn btn-outline-light mr-2" href="#" style="
+    width: 55.6px;
+    height: 23.6px;
+	font-size: 8.5px;
+">Login</a></li>
+							<li><a class="btn btn-outline-light" href="#"style="
+    width: 55.6px;
+    height: 23.6px;
+	font-size: 8.5px;
+">Sign Up</a></li>
+                        </ul>
+                    </div>
+					
+                </div>
+
+            </div>
+        </div>
+        <div id="nav-head" class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 nav-img">
+                        <img src="assets/images/logop.png" alt="">
+                       <a data-toggle="collapse" data-target="#menu" href="#menu" ><i class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="col-md-9 d-none d-md-block nav-item">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="fee.html">Fee Management</a></li>
+                            <li><a href="payment.html">Payments</a></li>
+                            <li><a href="studentrecord.html">Student records</a></li>
+                            <li><a href="Scolarship.html">Scholarship</a></li>
+                            
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <!--  ************************* Page Title Starts Here ************************** -->
+    <div class="page-nav no-margin row">
+        <div class="container">
+            <div class="row">
+                <h2>Payments</h2>
+                
+            </div>
+        </div>
+    </div>
+
+   <div class="our-blog bb3 pc2">
+    <div class="container">
+         
+        
+        <div class="row-blog row">
+            <div class="col-md-10 vbf mx-auto">
+                <form id="studentForm">
+					<label for="studentID">Student ID:</label>
+					<input type="text" id="studentID" required><br><br>
+					<label for="studentName">Student Name:</label>
+					<input type="text" id="studentName" required><br><br>
+					<label for="amount">Amount:</label>
+					<input type="number" id="amount" required><br><br>
+					<label for="feeType">Fee Type:</label>
+					<input type="text" id="feeType" required><br><br>
+					<button type="button" onclick="addStudent()">Add Student</button>
+				</form>
+
+				<table id="studentTable">
+					<thead>
+						<tr>
+							<th>Student ID</th>
+							<th>Student Name</th>
+							<th>Amount</th>
+							<th>Fee Type</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- Student details will be dynamically added here -->
+					</tbody>
+				</table>
+                    
+                 
+                    
+                    
+                
+                    
+                    
+                 
+                
+            </div>
+        </div>
+    </div>
+</div>
+   
+   
+    <!-- ################# Our Footer Starts Here#######################--->
+
+
+    <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 about">
+                
+                <div class="foot-address">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="addet">
+                       Itgallapura, Bangalore-40
+                    </div>
+                </div>
+                <div class="foot-address">
+                    <div class="icon">
+                        <i class="far fa-envelope-open"></i>
+                    </div>
+                    <div class="addet">
+                        
+                        Presidencyuniversity@gmail.com
+                    </div>
+                </div>
+                <div class="foot-address">
+                    <div class="icon">
+                         <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="addet">
+                        +23 323 43434 
+                       
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 glink">
+                <ul>
+                    <li><a href="fee.html"><i class="fas fa-angle-double-right"></i>Fee Management</a></li>
+                    <li><a href="studentrecord.html"><i class="fas fa-angle-double-right"></i>Students record</a></li>
+                    <li><a href="payment.html"><i class="fas fa-angle-double-right"></i>Payments</a></li>
+                    <li><a href="Scolarship.html"><i class="fas fa-angle-double-right"></i>Scholarships</a></li>
+                    
+                </ul>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copy">
+            <div class="container">
+                <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Presidency University</a>
+                
+                <span>
+                <a><i class="fab fa-github"></i></a>
+                <a><i class="fab fa-google-plus-g"></i></a>
+                <a><i class="fab fa-pinterest-p"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-facebook-f"></i></a>
+        </span>
+            </div>
+
+        </div>
+</body>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+        function addStudent() {
+            var studentID = document.getElementById("studentID").value;
+            var studentName = document.getElementById("studentName").value;
+            var amount = document.getElementById("amount").value;
+            var feeType = document.getElementById("feeType").value;
+
+            var table = document.getElementById("studentTable").getElementsByTagName('tbody')[0];
+            var newRow = table.insertRow(table.rows.length);
+
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            var cell3 = newRow.insertCell(2);
+            var cell4 = newRow.insertCell(3);
+            var cell5 = newRow.insertCell(4);
+
+            cell1.innerHTML = studentID;
+            cell2.innerHTML = studentName;
+            cell3.innerHTML = amount;
+            cell4.innerHTML = feeType;
+            cell5.innerHTML = '<button onclick="editRow(this)">Edit</button> <button onclick="deleteRow(this)">Delete</button>';
+        }
+
+        function deleteRow(btn) {
+            var row = btn.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+
+        function editRow(btn) {
+            var row = btn.parentNode.parentNode;
+            var studentID = row.cells[0].innerHTML;
+            var studentName = row.cells[1].innerHTML;
+            var amount = row.cells[2].innerHTML;
+            var feeType = row.cells[3].innerHTML;
+
+            document.getElementById("studentID").value = studentID;
+            document.getElementById("studentName").value = studentName;
+            document.getElementById("amount").value = amount;
+            document.getElementById("feeType").value = feeType;
+
+            row.parentNode.removeChild(row);
+        }
+    </script>
+
+
+</html>
